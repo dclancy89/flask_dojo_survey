@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="result">
+
+	<div class="container">
+		<p class="title">Submitted Info</p>
+		<p>Name: <span>{{ name }}</span></p>
+		<p>Dojo Location: <span>{{ location }}</span></p>
+		<p>Favorite Language: <span>{{ language }}</span></p>
+		<p>Comment: <span>{{ comment }}</span></p>
+		<a href="/" class="button">Go Back</a>
+	</div>
+
+</body>
+</html>
